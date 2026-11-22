@@ -1,0 +1,11 @@
+# Automated File Test Suite
+
+TEST.NAME: Test_Valid_File
+TEST.INPUT: data_01.csv
+TEST.EXPECTED: SUCCESS
+TEST.END
+
+TEST.NAME: Test_Empty_File
+TEST.INPUT: empty.csv
+TEST.EXPECTED: ERROR_EMPTY
+TEST.END
